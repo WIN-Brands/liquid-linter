@@ -1,5 +1,5 @@
 {
-  "name": "liquid-linter",
+  "name": "@WIN-Brands/liquid-linter",
   "version": "0.0.4",
   "description": "A liquid template language linter",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomheller/liquid-linter"
+    "url": "https://github.com/WIN-Brands/liquid-linter"
   },
   "author": "",
   "license": "MIT",
