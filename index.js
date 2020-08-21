@@ -1,7 +1,7 @@
 const Promise = require('bluebird');
 const fs = Promise.promisifyAll(require('fs'));
 
-const Liquid = require("liquid");
+const Liquid = require("@UnicornGlobal/liquid");
 const engine = new Liquid.Engine;
 
 const replaceProblemWithSpace = (chunk, err) => {
