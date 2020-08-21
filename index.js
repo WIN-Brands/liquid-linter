@@ -66,7 +66,7 @@ const linter = {
   },
   loadTags: (obj) => {
     const opts = {
-      blocks: ['section', 'paginate', 'schema', 'javascript', 'stylesheet', 'style'].concat(obj.blocks || []),
+      blocks: ['paginate', 'schema', 'javascript', 'stylesheet', 'style'].concat(obj.blocks || []),
       tags: ['section', 'break', 'render', 'layout'].concat(obj.tags || [])
     };
     for (var i = 0; i < opts.blocks.length; i++) {
