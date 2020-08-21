@@ -22,6 +22,5 @@
   "dependencies": {
     "bluebird": "^3.7",
     "https://github.com/UnicornGlobal/liquid.git": "^4.0"
-//    "liquid": "^5.0"
   }
 }
