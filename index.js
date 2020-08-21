@@ -66,8 +66,8 @@ const linter = {
   },
   loadTags: (obj) => {
     const opts = {
-      blocks: obj.blocks || [],
-      tags: obj.tags || []
+      blocks: ['section'].concat(obj.blocks || []),
+      tags: ['render'].concat(obj.tags || [])
     };
     for (var i = 0; i < opts.blocks.length; i++) {
       engine.registerTag(opts.blocks[i], Liquid.Block);
