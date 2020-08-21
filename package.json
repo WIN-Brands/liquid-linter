@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "bluebird": "^3.7",
-    "https://github.com/UnicornGlobal/liquid.git": "^4.0"
+    "@UnicornGlobal/liquid": "^4.0"
   }
 }
