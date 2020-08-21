@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "bluebird": "^3.7",
-    "liquid-node": "^4.0"
+    "liquid": "^5.0"
   }
 }
